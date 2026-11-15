@@ -1,0 +1,37 @@
+/* Top bar pill */
+.pomo-pill { spacing: 7px; }
+.pomo-pill-label { font-weight: bold; font-feature-settings: "tnum"; }
+.pomo-pill-icon { icon-size: 13px; }
+.pomo-dot { width: 9px; height: 9px; border-radius: 5px; background-color: #ff6b57; margin: 0 1px; }
+.pomo-dot-short, .pomo-dot-long { background-color: #5fd38d; }
+.pomo-dot-idle { background-color: transparent; border: 2px solid rgba(255,255,255,0.7); width: 5px; height: 5px; }
+.pomo-dot-paused { background-color: rgba(255,255,255,0.55); }
+.pomodoro-done { background-color: #ff6b57; border-radius: 99px; }
+.pomodoro-done .pomo-pill-label, .pomodoro-done .pomo-pill-icon { color: #1a0f0e; }
+
+/* Popup glass (works with Blur my Shell: translucent so the blur shows through) */
+.pomo-boxpointer .popup-menu-content {
+  background-color: rgba(26,26,32,0.62);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 22px;
+  padding: 6px;
+}
+.pomo-item { padding: 8px 12px; min-width: 300px; }
+.pomo-section-title { font-size: 11px; font-weight: bold; color: rgba(255,255,255,0.78); }
+.pomo-tabs { background-color: rgba(255,255,255,0.08); border-radius: 14px; padding: 4px; spacing: 4px; }
+.pomo-tab { border-radius: 10px; padding: 7px 4px; font-size: 13px; font-weight: bold; color: rgba(255,255,255,0.78); text-align: center; }
+.pomo-tab:hover { background-color: rgba(255,255,255,0.1); }
+.pomo-tab:checked { background-color: rgba(255,255,255,0.2); color: #ffffff; }
+.pomo-big-time { font-size: 42px; font-weight: 800; font-feature-settings: "tnum"; text-align: center; }
+.pomo-sub { font-size: 13px; color: rgba(255,255,255,0.78); text-align: center; }
+.pomo-circle { width: 44px; height: 44px; border-radius: 22px; background-color: rgba(255,255,255,0.12); color: #ffffff; }
+.pomo-circle:hover, .pomo-chip:hover, .pomo-step:hover { background-color: rgba(255,255,255,0.22); }
+.pomo-primary { height: 48px; padding: 0 28px; border-radius: 24px; font-size: 15px; font-weight: 800; background-color: #ff6b57; color: #1a0f0e; }
+.pomo-primary-break { background-color: #5fd38d; color: #0c2216; }
+.pomo-primary:hover { background-color: #ff8271; }
+.pomo-primary-break:hover { background-color: #7be0a3; }
+.pomo-row-label { font-size: 14px; font-weight: bold; }
+.pomo-value { font-size: 14px; font-weight: bold; font-feature-settings: "tnum"; min-width: 64px; text-align: center; }
+.pomo-step { width: 32px; height: 32px; border-radius: 16px; background-color: rgba(255,255,255,0.12); color: #fff; font-size: 18px; }
+.pomo-chip { height: 30px; border-radius: 15px; background-color: rgba(255,255,255,0.08); color: rgba(255,255,255,0.85); font-size: 12px; font-weight: bold; }
+.pomo-chip:checked { background-color: rgba(255,255,255,0.22); color: #ffffff; }

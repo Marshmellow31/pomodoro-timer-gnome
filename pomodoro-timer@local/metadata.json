@@ -1,0 +1,8 @@
+{
+  "uuid": "pomodoro-timer@local",
+  "name": "Pomodoro Timer",
+  "description": "A light Pomodoro timer for the top bar. Pick focus/break lengths, turn Do Not Disturb on automatically while focusing, and get a clear alert when time is up.",
+  "shell-version": ["51"],
+  "settings-schema": "org.gnome.shell.extensions.pomodoro-timer",
+  "version": 1
+}

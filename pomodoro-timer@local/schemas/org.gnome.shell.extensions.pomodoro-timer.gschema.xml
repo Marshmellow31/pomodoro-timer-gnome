@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pomodoro-timer" path="/org/gnome/shell/extensions/pomodoro-timer/">
+    <key name="focus-minutes" type="i">
+      <range min="1" max="180"/>
+      <default>25</default>
+      <summary>Focus length in minutes</summary>
+    </key>
+    <key name="short-minutes" type="i">
+      <range min="1" max="60"/>
+      <default>5</default>
+      <summary>Short break length in minutes</summary>
+    </key>
+    <key name="long-minutes" type="i">
+      <range min="1" max="90"/>
+      <default>15</default>
+      <summary>Long break length in minutes</summary>
+    </key>
+    <key name="sessions-before-long" type="i">
+      <range min="2" max="10"/>
+      <default>4</default>
+      <summary>Focus sessions before a long break</summary>
+    </key>
+    <key name="auto-dnd" type="b">
+      <default>true</default>
+      <summary>Turn on Do Not Disturb while focusing</summary>
+    </key>
+    <key name="auto-start" type="b">
+      <default>false</default>
+      <summary>Start the next timer automatically</summary>
+    </key>
+    <key name="saved-show-banners" type="i">
+      <default>-1</default>
+      <summary>Internal: show-banners value to restore (-1 = nothing saved)</summary>
+    </key>
+  </schema>
+</schemalist>
